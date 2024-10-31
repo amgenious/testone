@@ -102,11 +102,11 @@ class _MemebersDetailsPageState extends State<MemebersDetailsPage> {
                             TextStyle(color: Colors.grey),
                       ),
                       const Padding(padding: EdgeInsets.only(bottom: 5)),
-                      const Text(
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tincidunt justo, a egestas nibh. Quisque id purus orci. Mauris metus sapien, luctus sit amet felis fringilla, interdum accumsan lorem. Proin at elementum ipsum, a lobortis justo. Aenean ultrices volutpat egestas. Curabitur venenatis maximus vulputate. Phasellus maximus mi nec ex fermentum consectetur.",
-                        style: TextStyle(color: Colors.grey),
+                       Text(
+                       current.bio,
+                        style: const TextStyle(color: Colors.grey),
                         maxLines:
-                            int.fromEnvironment("defaultPort", defaultValue: 4),
+                            const int.fromEnvironment("defaultPort", defaultValue: 4),
                       ),
                       const Padding(padding: EdgeInsets.only(bottom: 20)),
                       SizedBox(
