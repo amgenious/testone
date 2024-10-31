@@ -20,9 +20,4 @@ This project is a community app for SHACK15 members, built with Flutter, featuri
 - Ensure you have [Flutter SDK](https://flutter.dev/docs/get-started/install) installed.
 - A recent version of [Dart](https://dart.dev/get-dart) (Flutter installation includes Dart).
 
-### Installation
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/shack15-community-app.git
-   cd shack15-community-app
